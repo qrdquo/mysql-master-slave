@@ -18,6 +18,8 @@ public class Application {
         for(User u:service.selectAll()){
             System.out.println(u.getName());
         }
+
+        System.out.println("left01分支初始化代码");
     }
 
 }
